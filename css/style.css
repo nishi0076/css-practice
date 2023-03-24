@@ -21,7 +21,7 @@ li{
 }
 
 .bg{
-  width: 75vw;
+  width: 75%;
   height: 25vh;
   background-color: darkblue;
   position: relative;
@@ -29,12 +29,16 @@ li{
   z-index: 0;
 }
 
-.ptc{
-  width: 50vw;
-  height: 60vh;
+.img{
+  display: flex;
+  justify-content: flex-end;
+}
+
+img{
+  width: 50%;
+  height: 400px;
   position: relative;
-  top: 120px;
-  left: 750px;
+  top: 100px;
   z-index: 1;
 }
 
@@ -42,4 +46,8 @@ li{
   font-size: 65px;
   position: relative;
   bottom: 30px;
+}
+
+body{
+  width: 100%;
 }
